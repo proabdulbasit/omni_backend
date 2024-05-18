@@ -91,7 +91,10 @@ dist
 .tern-port
 
 # VS Code
-.vscode/
 
 # JetBrains IDEs
 .idea/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

@@ -44,7 +44,9 @@ app.use(express.json());
 
 // Add CORS middleware to allow requests from all origins
 app.use(cors());
-
+app.get('/', async (req, res) => {
+res.send('Server is Running');
+});
 // Route to handle form submission
 app.post('/submit', async (req, res) => {
   try {

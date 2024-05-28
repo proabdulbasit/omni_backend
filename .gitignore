@@ -46,6 +46,7 @@ typings/
 # Optional eslint cache
 .eslintcache
 
+temp_auto_push.bat
 # Optional REPL history
 .node_repl_history
 
@@ -91,7 +92,8 @@ dist
 .tern-port
 
 # VS Code
-.vscode/
 
 # JetBrains IDEs
 .idea/
+.gitignore
+branch_structure.json
